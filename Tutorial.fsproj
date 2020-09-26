@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Wave_packer.fsx" />
+    <None Include="Signal_generator.fsx" />
+    <None Include="Function_composition.fsx" />
+    <None Include="Pipe_forward.fsx" />
+    <None Include="Recursion.fsx" />
+    <None Include="Testing.fsx" />
+    <None Include="Trigonometric function.fsx" />
+    <None Include="quadratic function.fsx" />
+    <None Include="function.fsx" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup />
+
+  <ItemGroup>
+    <PackageReference Include="FSharp.Charting" Version="2.1.0" />
+  </ItemGroup>
+
+</Project>
