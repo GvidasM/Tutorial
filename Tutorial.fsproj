@@ -6,21 +6,24 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="Wave_packer.fsx" />
-    <None Include="Signal_generator.fsx" />
-    <None Include="Function_composition.fsx" />
-    <None Include="Pipe_forward.fsx" />
-    <None Include="Recursion.fsx" />
+    <None Include="Composer app\ComposerParser.fsx" />
+    <None Include="Topics\Parsers.fsx" />
+    <None Include="Topics\Lists.fsx" />
+    <None Include="Topics\String manipulation.fsx" />
+    <None Include="Topics\Function_composition.fsx" />
+    <None Include="Topics\Pipe_forward.fsx" />
+    <None Include="Topics\Recursion.fsx" />
+    <None Include="Topics\Trigonometric function.fsx" />
+    <None Include="Topics\quadratic function.fsx" />
+    <None Include="Topics\function.fsx" />
+    <None Include="Wave generator and wave packer mini project\Wave_packer.fsx" />
+    <None Include="Wave generator and wave packer mini project\Signal_generator.fsx" />
     <None Include="Testing.fsx" />
-    <None Include="Trigonometric function.fsx" />
-    <None Include="quadratic function.fsx" />
-    <None Include="function.fsx" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 
-  <ItemGroup />
-
   <ItemGroup>
+    <PackageReference Include="FParsec" Version="1.1.1" />
     <PackageReference Include="FSharp.Charting" Version="2.1.0" />
   </ItemGroup>
 

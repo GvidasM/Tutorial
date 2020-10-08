@@ -37,3 +37,4 @@ let write fileName (ms:MemoryStream) =
 Array.ofSeq (generateSamples 1500. 440.)
     |> pack
     |> write "test.wav"
+
